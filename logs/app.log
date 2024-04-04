@@ -1,0 +1,126 @@
+2024-04-04 11:06:59,642 INFO r.d.s.AccountService [main] Сгенерировано счетов в количестве 4
+2024-04-04 11:06:59,657 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4715 у.е. В потоке pool-2-thread-1
+2024-04-04 11:06:59,657 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 2841 у.е. В потоке pool-2-thread-2
+2024-04-04 11:06:59,664 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 2841 у.е.
+2024-04-04 11:06:59,664 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4715 у.е.
+2024-04-04 11:07:01,324 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4715 у.е. завершен. Счет отправителя - 2444. Счет получателя - 14715
+2024-04-04 11:07:01,325 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4715 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:01,326 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 274 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:01,327 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 274 у.е.
+2024-04-04 11:07:01,405 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 2841 у.е. завершен. Счет отправителя - 2444. Счет получателя - 12841
+2024-04-04 11:07:01,405 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 2841 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:01,406 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8726 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:01,406 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8726 у.е.
+2024-04-04 11:07:01,407 INFO r.d.e.Account [pool-2-thread-2] Недостаточно средств на счете id - gPHPC7wxS145
+2024-04-04 11:07:01,408 WARN r.d.s.AccountService [pool-2-thread-2] Транзакция по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8726 у.е. отменена. Недостаточно средств на счете gPHPC7wxS145
+2024-04-04 11:07:01,409 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6501 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:01,409 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6501 у.е.
+2024-04-04 11:07:01,410 INFO r.d.e.Account [pool-2-thread-2] Недостаточно средств на счете id - gPHPC7wxS145
+2024-04-04 11:07:01,410 WARN r.d.s.AccountService [pool-2-thread-2] Транзакция по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6501 у.е. отменена. Недостаточно средств на счете gPHPC7wxS145
+2024-04-04 11:07:01,411 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8595 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:01,411 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8595 у.е.
+2024-04-04 11:07:03,183 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 274 у.е. завершен. Счет отправителя - 14441. Счет получателя - 10274
+2024-04-04 11:07:03,183 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 274 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:03,184 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4224 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:03,185 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4224 у.е.
+2024-04-04 11:07:03,185 INFO r.d.e.Account [pool-2-thread-1] Недостаточно средств на счете id - gPHPC7wxS145
+2024-04-04 11:07:03,186 WARN r.d.s.AccountService [pool-2-thread-1] Транзакция по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4224 у.е. отменена. Недостаточно средств на счете gPHPC7wxS145
+2024-04-04 11:07:03,186 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 4518 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:03,187 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 4518 у.е.
+2024-04-04 11:07:04,438 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8595 у.е. завершен. Счет отправителя - 1679. Счет получателя - 23036
+2024-04-04 11:07:04,439 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8595 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:04,440 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 1374 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:04,441 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 1374 у.е.
+2024-04-04 11:07:05,864 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 1374 у.е. завершен. Счет отправителя - 17144. Счет получателя - 3053
+2024-04-04 11:07:05,865 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 1374 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:05,866 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 760 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:05,867 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 760 у.е.
+2024-04-04 11:07:06,363 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 4518 у.е. завершен. Счет отправителя - 17144. Счет получателя - 6962
+2024-04-04 11:07:06,364 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 4518 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:06,365 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 537 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:06,365 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 537 у.е.
+2024-04-04 11:07:07,616 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 760 у.е. завершен. Счет отправителя - 11544. Счет получателя - 3813
+2024-04-04 11:07:07,617 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 760 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:07,618 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 5577 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:07,619 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 5577 у.е.
+2024-04-04 11:07:08,853 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 537 у.е. завершен. Счет отправителя - 5967. Счет получателя - 4350
+2024-04-04 11:07:08,854 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 537 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:08,855 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 8805 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:08,856 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 8805 у.е.
+2024-04-04 11:07:08,856 INFO r.d.e.Account [pool-2-thread-1] Недостаточно средств на счете id - gPHPC7wxS145
+2024-04-04 11:07:08,857 WARN r.d.s.AccountService [pool-2-thread-1] Транзакция по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 8805 у.е. отменена. Недостаточно средств на счете gPHPC7wxS145
+2024-04-04 11:07:08,858 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 2142 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:08,859 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 2142 у.е.
+2024-04-04 11:07:09,112 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 5577 у.е. завершен. Счет отправителя - 5967. Счет получателя - 22721
+2024-04-04 11:07:09,113 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 5577 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:09,114 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 527 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:09,115 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 527 у.е.
+2024-04-04 11:07:10,422 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 527 у.е. завершен. Счет отправителя - 5440. Счет получателя - 4877
+2024-04-04 11:07:10,422 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет GWkb5P8UqXvN на сумму 527 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:10,423 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 358 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:10,424 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 358 у.е.
+2024-04-04 11:07:10,639 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 2142 у.е. завершен. Счет отправителя - 20579. Счет получателя - 9104
+2024-04-04 11:07:10,639 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 2142 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:10,641 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 8565 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:10,641 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 8565 у.е.
+2024-04-04 11:07:12,109 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 358 у.е. завершен. Счет отправителя - 4519. Счет получателя - 20937
+2024-04-04 11:07:12,110 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 358 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:12,111 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8653 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:12,112 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8653 у.е.
+2024-04-04 11:07:12,112 INFO r.d.e.Account [pool-2-thread-2] Недостаточно средств на счете id - GWkb5P8UqXvN
+2024-04-04 11:07:12,112 WARN r.d.s.AccountService [pool-2-thread-2] Транзакция по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 8653 у.е. отменена. Недостаточно средств на счете GWkb5P8UqXvN
+2024-04-04 11:07:12,113 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6573 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:12,114 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6573 у.е.
+2024-04-04 11:07:13,205 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 8565 у.е. завершен. Счет отправителя - 12372. Счет получателя - 17669
+2024-04-04 11:07:13,205 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет gPHPC7wxS145 на сумму 8565 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:13,206 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 5377 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:13,206 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 5377 у.е.
+2024-04-04 11:07:14,384 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6573 у.е. завершен. Счет отправителя - 5719. Счет получателя - 11092
+2024-04-04 11:07:14,385 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет GWkb5P8UqXvN на сумму 6573 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:14,386 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 406 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:14,386 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 406 у.е.
+2024-04-04 11:07:15,207 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 5377 у.е. завершен. Счет отправителя - 5719. Счет получателя - 10817
+2024-04-04 11:07:15,208 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 5377 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:15,209 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета GWkb5P8UqXvN на счет gPHPC7wxS145 на сумму 9677 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:15,209 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета GWkb5P8UqXvN на счет gPHPC7wxS145 на сумму 9677 у.е.
+2024-04-04 11:07:17,064 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 406 у.е. завершен. Счет отправителя - 10411. Счет получателя - 6125
+2024-04-04 11:07:17,065 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 406 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:17,066 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 4756 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:17,067 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 4756 у.е.
+2024-04-04 11:07:18,544 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета GWkb5P8UqXvN на счет gPHPC7wxS145 на сумму 9677 у.е. завершен. Счет отправителя - 1415. Счет получателя - 15802
+2024-04-04 11:07:18,545 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета GWkb5P8UqXvN на счет gPHPC7wxS145 на сумму 9677 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:18,546 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 27 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:18,546 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 27 у.е.
+2024-04-04 11:07:19,579 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 4756 у.е. завершен. Счет отправителя - 5628. Счет получателя - 20558
+2024-04-04 11:07:19,579 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет gPHPC7wxS145 на сумму 4756 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:19,580 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 1145 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:19,580 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 1145 у.е.
+2024-04-04 11:07:19,715 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 27 у.е. завершен. Счет отправителя - 4483. Счет получателя - 12399
+2024-04-04 11:07:19,716 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 27 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:19,717 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 7199 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:19,717 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 7199 у.е.
+2024-04-04 11:07:20,838 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 1145 у.е. завершен. Счет отправителя - 4483. Счет получателя - 13544
+2024-04-04 11:07:20,839 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета ZjaHx7wZ0onI на счет eNlK2U3N7cov на сумму 1145 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:20,840 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8742 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:20,840 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8742 у.е.
+2024-04-04 11:07:21,976 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 7199 у.е. завершен. Счет отправителя - 6345. Счет получателя - 8614
+2024-04-04 11:07:21,976 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета eNlK2U3N7cov на счет GWkb5P8UqXvN на сумму 7199 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:21,977 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 7304 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:21,978 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 7304 у.е.
+2024-04-04 11:07:22,392 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8742 у.е. завершен. Счет отправителя - 11816. Счет получателя - 15087
+2024-04-04 11:07:22,392 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 8742 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:22,393 INFO r.d.s.AccountService [pool-2-thread-2] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4819 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:22,393 INFO r.d.s.AccountService [pool-2-thread-2] Начали перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4819 у.е.
+2024-04-04 11:07:24,204 INFO r.d.s.AccountService [pool-2-thread-1] Перевод денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 7304 у.е. завершен. Счет отправителя - 1310. Счет получателя - 22391
+2024-04-04 11:07:24,205 INFO r.d.s.AccountService [pool-2-thread-1] Завершили транзакцию по переводу денег со счета GWkb5P8UqXvN на счет eNlK2U3N7cov на сумму 7304 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:24,206 INFO r.d.s.AccountService [pool-2-thread-1] Начали транзакцию по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 8239 у.е. В потоке pool-2-thread-1
+2024-04-04 11:07:24,207 INFO r.d.s.AccountService [pool-2-thread-1] Начали перевод денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 8239 у.е.
+2024-04-04 11:07:24,207 INFO r.d.e.Account [pool-2-thread-1] Недостаточно средств на счете id - gPHPC7wxS145
+2024-04-04 11:07:24,208 WARN r.d.s.AccountService [pool-2-thread-1] Транзакция по переводу денег со счета gPHPC7wxS145 на счет ZjaHx7wZ0onI на сумму 8239 у.е. отменена. Недостаточно средств на счете gPHPC7wxS145
+2024-04-04 11:07:26,138 INFO r.d.s.AccountService [pool-2-thread-2] Перевод денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4819 у.е. завершен. Счет отправителя - 6997. Счет получателя - 27210
+2024-04-04 11:07:26,138 INFO r.d.s.AccountService [pool-2-thread-2] Завершили транзакцию по переводу денег со счета gPHPC7wxS145 на счет eNlK2U3N7cov на сумму 4819 у.е. В потоке pool-2-thread-2
+2024-04-04 11:07:26,151 INFO r.d.s.TransferService [main] Приложение завершило свою работу. Проведено 30 транзакций. Счета: [Account id= eNlK2U3N7cov , money= 27210
+, Account id= GWkb5P8UqXvN , money= 1310
+, Account id= gPHPC7wxS145 , money= 6997
+, Account id= ZjaHx7wZ0onI , money= 4483
+]
